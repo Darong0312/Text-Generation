@@ -1,24 +1,30 @@
 const fillers = {
-    friend: ["Leo", "Cirno", "Rukul", "Shakou", "Ryu", "Chinese_Cheese", "B.A.", "Old Wang", "Sassy", "J.H.", "$friend and $friend", "$friend, $friend, and $friend"],
-    place: ["my place", "internet cafe", "your place", "Old Wang's house"],
-    drink: ["cola", "ice water", "sprite", "orange juice", "tea", "bottled water"],
-    item: ["axe", "staff", "book", "cloak", "shield", "club", "sword", "magic gloves", "galvel", "fists", "mace", "potato"],
-    num: ["two", "three", "eleven"],
-    enemy: ["orcs", "glubs", "fishmen", "cordungles", "mountain trolls", "college professors", "dragon", "evil $adventurer", "agents of chaos"],
-    looty: ["gleaming", "valuable", "esteemed", "rare", "exalted", "scintillating", "kinda gross but still usefull", "complete garbage"],
-    loots: ["coins", "chalices", "ingots", "hides", "victory points", "gems","scrolls", "bananas", "noodles", "goblins", "CS Majors", "college credits"],
-    game: ["League of Legend", "Apex Legend", "BDO", "L4D2", "The Forest", "Elder Ring", "Sekiro", "Monster Hunter"],
-    
-  };
+  player: ["My friend", "The greatest adventurer", "Guardian", "Traveller", "Mortal", "Lucky player", "Slug", "$player and $player", "Doctor", "Fishman"],
+  monster: ["Ghost", "Jocker", "Dragon", "Giant", "Walking shark", "Zombies", "Husk", "Drowned", "Creeper", "Fallen"],
+  time: ["three hour", "twenty minutes", "two days", "30 seconds", "half year", "one month"],
+  room: ["bloody room", "dining hall", "main lobby", "your room"],
+  skill: ["run", "fire ball", "shooting", "dig", "hide", "sabotage", "aiming", "sing", "spot", "control the mech", "driving the tank"],
+  food: ["chicken", "steak", "fish", "fruit", "curry rice", "beef noodles", "cookies", "McDonald's", "pizza", "bread", "duck", "roast pork"],
+  drink: ["milk tea", "coca cola", "water", "soy milk", "power drink", "juice","ice water"],
+  weapon: ["gun","tank","iron sword", "stone sword", "map", "guitar", "mic"],
   
-  const template = `$friend!
-  
-  I have just arrive at $place, and we have $num people here waiting for you. We got some $drink and $drink here. 
-  
-  Before you come, make sure to bring your VR equipment because we are entering $game world, where we can hunt down the $enemy to get $looty $loots with $item.
-  
-  Come as soon as possible, because the game is about to begin, and there are only a few $drink left!
-  `;
+};
+
+const template = `$Player, welcome back to the battlefield.
+
+Hope you are have great skill on $skill because that's how you defeat the enemies.
+
+Before entering into the battle field, you will have $time to get yourself prepared.
+
+If you feel hungry before join the battle, you can always go to $room to order some $food, and grab a $drink on your way out.
+
+Remember, even if you are $player, you still need to be careful on the battle field because there are many unknow monsters such as $monster.
+
+Make sure your $weapon is ready, and you are up!
+
+Good luck.
+
+`;
   
   
   // STUDENTS: You don't need to edit code below this line.
