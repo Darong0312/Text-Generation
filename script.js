@@ -10,7 +10,7 @@ const fillers = {
   
 };
 
-const template = `$Player, welcome back to the battlefield.
+const template = `$player, welcome back to the battlefield.
 
 Hope you are have great skill on $skill because that's how you defeat the enemies.
 
